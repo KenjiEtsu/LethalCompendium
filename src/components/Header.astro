@@ -5,14 +5,15 @@ import lethalLogo from "../assets/lethal-logo.webp";
 
 <header>
     <div class = "mx-auto flex flex-col p-4 h-[100px] bg-gradient-to-r sm:pb-5">
-        <button class="w-32 h-32 object-contain hover:scale-110 transition-transform">
+        <a class="w-32 h-32 object-contain hover:scale-110 transition-transform" href="/">
             <Image src={lethalLogo} alt="Lethal Company Logo" width={lethalLogo.width} height={lethalLogo.height} loading="eager" class="pointer-events-none"/>
-        </button>
+        </a>
         <nav class="flex flex-row justify-center gap-4 text-red">
-            <a href="/" class="hover:scale-110 transition-transform hover:font-semibold">Home</a>
             <a href="/moons" class="hover:scale-110 transition-transform hover:font-semibold">Moons</a>
             <a href="/entities" class="hover:scale-110 transition-transform hover:font-semibold">Entities</a>
             <a href="/scrap" class="hover:scale-110 transition-transform hover:font-semibold">Scrap</a>
+            <a href="/mods" class="hover:scale-110 transition-transform hover:font-semibold">Mods</a>
+
         </nav>
     </div>
     <hr class="h-px bg-red border-none w-full"/>
